@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_1166758_account_ru_tasks">get_data_from_cmdb=yes<item display_value="Yes" endquery="false" field="get_data_from_cmdb" goto="false" newquery="false" operator="=" or="false" value="yes"/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {}]]></script_false>
+        <script_true><![CDATA[function onCondition() {}]]></script_true>
+        <set_values/>
+        <short_description>Make Current month data read-only</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-30 09:14:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2a5fb40493563110180376de3bba1071</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Make Current month data read-only</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Account Financials" source="x_1166758_account">bf36057a93863110180376de3bba10cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Account Financials">bf36057a93863110180376de3bba10cd</sys_scope>
+        <sys_update_name>sys_ui_policy_2a5fb40493563110180376de3bba1071</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-30 09:14:35</sys_updated_on>
+        <table>x_1166758_account_ru_tasks</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

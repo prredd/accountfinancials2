@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_1166758_account_resource_unit_data">x_1166758_account_resource_unit_data</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>RU</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 17:59:04</sys_created_on>
+        <sys_id>1e019efa93ca3110180376de3bba104b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RU</sys_name>
+        <sys_package display_value="Account Financials" source="x_1166758_account">bf36057a93863110180376de3bba10cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Account Financials">bf36057a93863110180376de3bba10cd</sys_scope>
+        <sys_update_name>sys_number_1e019efa93ca3110180376de3bba104b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 17:59:04</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Account Financials">bf36057a93863110180376de3bba10cd</application>
+        <file_path/>
+        <instance_id>f35c85b7db6d3d10caf99027c596194a</instance_id>
+        <instance_name>dev181235</instance_name>
+        <name>sys_number_1e019efa93ca3110180376de3bba104b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_1166758_account_resource_unit_data">x_1166758_account_resource_unit_data</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>RU</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-26 17:59:04</sys_created_on><sys_id>1e019efa93ca3110180376de3bba104b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>RU</sys_name><sys_package display_value="Account Financials" source="x_1166758_account">bf36057a93863110180376de3bba10cd</sys_package><sys_policy/><sys_scope display_value="Account Financials">bf36057a93863110180376de3bba10cd</sys_scope><sys_update_name>sys_number_1e019efa93ca3110180376de3bba104b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-26 17:59:04</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>412263464</payload_hash>
+        <record_name>RU</record_name>
+        <reverted_from/>
+        <source>3336057a93863110180376de3bba10d2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 17:59:05</sys_created_on>
+        <sys_id>1201da3e93ca3110180376de3bba10fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b6d23ce520000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 17:59:05</sys_updated_on>
+        <type>Number</type>
+        <update_guid>96019efa90ca3110506aeee9e30a2153</update_guid>
+        <update_guid_history>96019efa90ca3110506aeee9e30a2153:412263464</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 18:17:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>28e4e71302834e6ea9d8bd471f427b64</sys_id>
+        <sys_metadata>1e019efa93ca3110180376de3bba104b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RU</sys_name>
+        <sys_package display_value="Account Financials" source="x_1166758_account">bf36057a93863110180376de3bba10cd</sys_package>
+        <sys_parent display_value="">a300d2ba93ca3110180376de3bba1075</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Account Financials">bf36057a93863110180376de3bba10cd</sys_scope>
+        <sys_scope_delete display_value="">0a6c928db3aa4b0881c787f091182640</sys_scope_delete>
+        <sys_update_name>sys_number_1e019efa93ca3110180376de3bba104b</sys_update_name>
+        <sys_update_version display_value="sys_number_1e019efa93ca3110180376de3bba104b">1201da3e93ca3110180376de3bba10fb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 18:17:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

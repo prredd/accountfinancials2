@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>previous_month_count</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-30 09:14:36</sys_created_on>
+        <sys_id>e65fb40493563110180376de3bba1077</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>previous_month_count</sys_name>
+        <sys_package display_value="Account Financials" source="x_1166758_account">bf36057a93863110180376de3bba10cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Account Financials">bf36057a93863110180376de3bba10cd</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e65fb40493563110180376de3bba1077</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-30 09:14:36</sys_updated_on>
+        <table>x_1166758_account_ru_tasks</table>
+        <ui_policy display_value="Make RU Data fields Read-only">930f300493563110180376de3bba103b</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

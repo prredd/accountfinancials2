@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bc379af2930e3110180376de3bba1007" extends="task" label="Financial Statements" max_length="40" name="x_1166758_account_financial_statements" type="collection">
+        <element choice="1" default="review&#13;&#10;" label="Stage" max_length="40" name="stage" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Review" sequence="100" value="review"/>
+                <element inactive_on_update="false" label="Awaiting DPE Approval" sequence="200" value="dpe_approval"/>
+                <element inactive_on_update="false" label="Awaiting CPE Approval" sequence="300" value="cpe_approval"/>
+                <element inactive_on_update="false" label="Finalized" sequence="400" value="finalized"/>
+                <element inactive_on_update="false" label="Incomplete" sequence="500" value="incomplete"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1166758_account_financial_statements">stage=finalized^EQ<item display_value="Finalized" endquery="false" field="stage" goto="false" newquery="false" operator="=" or="false" value="finalized"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Finalized</label>
+        <name>Finalized</name>
+        <order>400</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-27 04:17:06</sys_created_on>
+        <sys_id>626ed4c793467110180376de3bba10ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Finalized</sys_name>
+        <sys_package display_value="Account Financials" source="x_1166758_account">bf36057a93863110180376de3bba10cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Account Financials">bf36057a93863110180376de3bba10cd</sys_scope>
+        <sys_update_name>sys_process_flow_626ed4c793467110180376de3bba10ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-27 04:17:06</sys_updated_on>
+        <table>x_1166758_account_financial_statements</table>
+    </sys_process_flow>
+</record_update>

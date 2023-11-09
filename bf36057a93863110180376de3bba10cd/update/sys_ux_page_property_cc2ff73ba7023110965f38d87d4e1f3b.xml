@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Ribbon Config ID</description>
+        <name>ribbonConfigId</name>
+        <page display_value="Resource Unit Management">002ff73b040231108c85317b99590f5a</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-30 04:34:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>cc2ff73ba7023110965f38d87d4e1f3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ribbonConfigId</sys_name>
+        <sys_package display_value="Account Financials" source="x_1166758_account">bf36057a93863110180376de3bba10cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Account Financials">bf36057a93863110180376de3bba10cd</sys_scope>
+        <sys_update_name>sys_ux_page_property_cc2ff73ba7023110965f38d87d4e1f3b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-30 04:34:00</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1166758_account.002ff73b040231108c85317b99590f5a.root.ribbonConfigId</unique_name>
+        <value>8c2ff73bc80231103e483eb304d28b3c</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=cc2ff73ba7023110965f38d87d4e1f3b"/>
+</record_update>

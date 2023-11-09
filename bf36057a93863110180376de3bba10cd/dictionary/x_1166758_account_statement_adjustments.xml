@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2a289e76930e3110180376de3bba101d" extends="task" label="Statement Adjustments" max_length="40" name="x_1166758_account_statement_adjustments" type="collection">
+        <element label="Adjustment RUs" max_length="4000" name="adjustment_rus" reference="x_1166758_account_ru_definition" type="glide_list"/>
+        <element label="Financial Statement" max_length="32" name="financial_statement" reference="x_1166758_account_financial_statements" type="reference"/>
+    </element>
+</database>

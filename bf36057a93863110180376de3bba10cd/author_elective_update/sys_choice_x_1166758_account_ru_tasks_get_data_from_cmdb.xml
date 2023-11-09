@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="get_data_from_cmdb" table="x_1166758_account_ru_tasks" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>get_data_from_cmdb</element>
+            <name>x_1166758_account_ru_tasks</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-26 17:45:59</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>get_data_from_cmdb</sys_name>
+            <sys_package display_value="Account Financials" source="x_1166758_account">bf36057a93863110180376de3bba10cd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Account Financials">bf36057a93863110180376de3bba10cd</sys_scope>
+            <sys_update_name>sys_choice_x_1166758_account_ru_tasks_get_data_from_cmdb</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-26 17:45:59</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>get_data_from_cmdb</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_1166758_account_ru_tasks</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-26 17:45:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-26 17:46:07</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>get_data_from_cmdb</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_1166758_account_ru_tasks</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-26 17:46:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-26 17:46:20</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
