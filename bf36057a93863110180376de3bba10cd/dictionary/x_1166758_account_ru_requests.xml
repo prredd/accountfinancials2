@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="458c0e7693ca3110180376de3bba10da" extends="task" label="RU Requests" max_length="40" name="x_1166758_account_ru_requests" type="collection"/>
+</database>

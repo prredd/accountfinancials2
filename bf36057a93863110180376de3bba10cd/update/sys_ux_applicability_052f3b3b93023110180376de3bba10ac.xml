@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_1166758_account.Audience for app resource-unit-management</api_name>
+        <description/>
+        <name>Audience for app resource-unit-management</name>
+        <role_names/>
+        <roles>ea479636930e3110180376de3bba1091,d4305afa93ca3110180376de3bba1000,b0f14e32934a3110180376de3bba1019,38bc86b693ca3110180376de3bba1042,96ec06f693ca3110180376de3bba10ea,a6489a76930e3110180376de3bba1051</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-30 04:34:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>052f3b3b93023110180376de3bba10ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app resource-unit-management</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Account Financials" source="x_1166758_account">bf36057a93863110180376de3bba10cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Account Financials">bf36057a93863110180376de3bba10cd</sys_scope>
+        <sys_update_name>sys_ux_applicability_052f3b3b93023110180376de3bba10ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-30 04:34:03</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

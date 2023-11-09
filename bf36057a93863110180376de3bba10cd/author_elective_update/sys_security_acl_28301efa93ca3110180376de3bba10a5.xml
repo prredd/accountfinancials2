@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_1166758_account_resource_unit_data</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1166758_account_resource_unit_data</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 17:55:24</sys_created_on>
+        <sys_id>28301efa93ca3110180376de3bba10a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1166758_account_resource_unit_data</sys_name>
+        <sys_package display_value="Account Financials" source="x_1166758_account">bf36057a93863110180376de3bba10cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Account Financials">bf36057a93863110180376de3bba10cd</sys_scope>
+        <sys_update_name>sys_security_acl_28301efa93ca3110180376de3bba10a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 17:55:24</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Account Financials">bf36057a93863110180376de3bba10cd</application>
+        <file_path/>
+        <instance_id>f35c85b7db6d3d10caf99027c596194a</instance_id>
+        <instance_name>dev181235</instance_name>
+        <name>sys_security_acl_28301efa93ca3110180376de3bba10a5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_1166758_account_resource_unit_data</description><local_or_existing>Local</local_or_existing><name>x_1166758_account_resource_unit_data</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-26 17:55:24</sys_created_on><sys_id>28301efa93ca3110180376de3bba10a5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1166758_account_resource_unit_data</sys_name><sys_package display_value="Account Financials" source="x_1166758_account">bf36057a93863110180376de3bba10cd</sys_package><sys_policy/><sys_scope display_value="Account Financials">bf36057a93863110180376de3bba10cd</sys_scope><sys_update_name>sys_security_acl_28301efa93ca3110180376de3bba10a5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-26 17:55:24</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-1613238728</payload_hash>
+        <record_name>x_1166758_account_resource_unit_data</record_name>
+        <reverted_from/>
+        <source>3336057a93863110180376de3bba10d2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 17:55:24</sys_created_on>
+        <sys_id>ec301efa93ca3110180376de3bba10a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b6d2070560000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 17:55:24</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>24301efa72ca3110e2cc3d832afb3ca7</update_guid>
+        <update_guid_history>24301efa72ca3110e2cc3d832afb3ca7:-1613238728</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 18:17:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>3979336553b64c62a4d97dfb62658844</sys_id>
+        <sys_metadata>28301efa93ca3110180376de3bba10a5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1166758_account_resource_unit_data</sys_name>
+        <sys_package display_value="Account Financials" source="x_1166758_account">bf36057a93863110180376de3bba10cd</sys_package>
+        <sys_parent display_value="">20301efa93ca3110180376de3bba10b1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Account Financials">bf36057a93863110180376de3bba10cd</sys_scope>
+        <sys_scope_delete display_value="">0a6c928db3aa4b0881c787f091182640</sys_scope_delete>
+        <sys_update_name>sys_security_acl_28301efa93ca3110180376de3bba10a5</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_28301efa93ca3110180376de3bba10a5">ec301efa93ca3110180376de3bba10a7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 18:17:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

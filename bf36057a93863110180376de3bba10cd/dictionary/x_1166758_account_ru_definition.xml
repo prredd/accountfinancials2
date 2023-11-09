@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e5d186ba938a3110180376de3bba108a" label="RU Definition" max_length="40" name="x_1166758_account_ru_definition" type="collection">
+        <element label="ARC/RRC Rate" max_length="20" name="arc_rrc_rate" type="currency"/>
+        <element label="Contract Basline" max_length="40" name="contract_basline" type="integer"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var agg = new GlideRecord('cmdb_ci');&#13;&#10;&#9;agg.addQuery('sys_class_name',current.ru_description.toString());&#13;&#10;&#9;agg.addEncodedQuery('managed_by=5a826bf03710200044e0bfc8bcbe5dcc^operational_status=1');&#13;&#10;&#9;agg.query();&#13;&#10;&#9;var count = agg.getRowCount();&#13;&#10;return count;&#13;&#10;})(current);" label="Current Month Count" max_length="40" name="current_month_count" type="integer" virtual="true"/>
+        <element attributes="ignore_filter_on_new=true" label="Resource Unit Number" max_length="40" name="number" type="string"/>
+        <element label="Previous Month Count" max_length="40" name="previous_month_count" type="integer"/>
+        <element label="RU Description" max_length="80" name="ru_description" type="table_name"/>
+        <element label="Service Delivery Owner" max_length="32" name="service_delivery_owner" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="service_delivery_owner"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

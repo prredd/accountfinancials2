@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d8655a32930e3110180376de3bba103a" extends="x_1166758_account_ru_definition" label="Resource Unit Data" max_length="40" name="x_1166758_account_resource_unit_data" type="collection">
+        <element label="Current Month ARC/RRC" max_length="40" name="current_month_arc_rrc" type="integer"/>
+        <element label="Current Month ARC/RRC - $$" max_length="20" name="current_month_arc_rrc_rate" type="currency"/>
+        <element label="Fiscal year" max_length="32" name="fiscal_year" reference="fiscal_period" reference_qual="fiscal_type=year^EQ" reference_qual_condition="fiscal_type=year^EQ" type="reference"/>
+        <element label="M10 Results" max_length="40" name="m10_results" type="integer"/>
+        <element label="M11 results" max_length="40" name="m11_results" type="integer"/>
+        <element label="M12 Results" max_length="40" name="m12_results" type="integer"/>
+        <element label="M1_Results" max_length="40" name="m1_results" type="integer"/>
+        <element label="M2 Results" max_length="40" name="m2_results" type="integer"/>
+        <element label="M3 Results" max_length="40" name="m3_results" type="integer"/>
+        <element label="M4 Results" max_length="40" name="m4_results" type="integer"/>
+        <element label="M5 Results" max_length="40" name="m5_results" type="integer"/>
+        <element label="M6 Results" max_length="40" name="m6_results" type="integer"/>
+        <element label="M7 Results" max_length="40" name="m7_results" type="integer"/>
+        <element label="M8 Results" max_length="40" name="m8_results" type="integer"/>
+        <element label="M9 Results" max_length="40" name="m9_results" type="integer"/>
+        <element label="Month Change %" max_length="40" name="month_change" type="integer"/>
+        <element label="Month Change Count" max_length="40" name="month_change_count" type="integer"/>
+        <element default="getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="rd_number" type="string"/>
+        <element label="Variance Explanation" max_length="255" name="variance_explanation" type="string_full_utf8"/>
+        <index name="index">
+            <element name="fiscal_year"/>
+        </index>
+    </element>
+</database>

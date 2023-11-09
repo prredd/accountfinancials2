@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <profile display_value="resource-unit-management Search Profile">4c2ff73b79023110654980b2183cc459</profile>
+        <search_source display_value="Statement Adjustments">d22ffb3b93023110180376de3bba10c4</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-30 04:34:08</sys_created_on>
+        <sys_id>162ffb3b93023110180376de3bba10c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>resource-unit-management Search Profile.Statement Adjustments</sys_name>
+        <sys_package display_value="Account Financials" source="x_1166758_account">bf36057a93863110180376de3bba10cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Account Financials">bf36057a93863110180376de3bba10cd</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_162ffb3b93023110180376de3bba10c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-30 04:34:08</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

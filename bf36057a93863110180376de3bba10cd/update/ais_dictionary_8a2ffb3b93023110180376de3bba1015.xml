@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_dictionary">
+    <ais_dictionary action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <auto_refresh>24</auto_refresh>
+        <blocked_field/>
+        <case_sensitive>false</case_sensitive>
+        <data_source>x_1166758_account_ru_tasks,x_1166758_account_statement_adjustments,x_1166758_account_ru_requests,sysapproval_group,x_1166758_account_financial_statements,x_1166758_account_ru_definition,x_1166758_account_resource_unit_data,sysapproval_approver</data_source>
+        <derived>true</derived>
+        <field/>
+        <label>resource-unit-management Search Profile Default Spell Check Dictionary</label>
+        <last_derived/>
+        <locale>en</locale>
+        <name>x_1166758_account_resource_unit_management_search_profile_default_spell_check_dictionary</name>
+        <publish_id/>
+        <punctuation_sensitive>false</punctuation_sensitive>
+        <state>DRAFT</state>
+        <sys_class_name>ais_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-30 04:34:07</sys_created_on>
+        <sys_id>8a2ffb3b93023110180376de3bba1015</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>x_1166758_account_resource_unit_management_search_profile_default_spell_check_dictionary</sys_name>
+        <sys_package display_value="Account Financials" source="x_1166758_account">bf36057a93863110180376de3bba10cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Account Financials">bf36057a93863110180376de3bba10cd</sys_scope>
+        <sys_update_name>ais_dictionary_8a2ffb3b93023110180376de3bba1015</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-30 04:34:09</sys_updated_on>
+        <type>SPELLCHECK</type>
+    </ais_dictionary>
+</record_update>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cddc02f693ca3110180376de3bba108d" extends="task" label="RU Tasks" max_length="40" name="x_1166758_account_ru_tasks" type="collection">
+        <element label="Adjustment Record" max_length="32" name="adjustment_reocord" reference="x_1166758_account_statement_adjustments" type="reference"/>
+        <element label="Current Month Count" max_length="40" name="current_month_count" type="string"/>
+        <element choice="1" label="Get Data from CMDB" max_length="40" name="get_data_from_cmdb" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="100" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="200" value="no"/>
+            </choice>
+        </element>
+        <element label="Previous Month Count" max_length="40" name="previous_month_count" type="integer"/>
+        <element label="Request" max_length="32" name="request" reference="x_1166758_account_ru_requests" type="reference"/>
+        <element label="Resource Unit Name" max_length="32" name="resource_unit_name" reference="x_1166758_account_ru_definition" type="reference"/>
+        <element label="Variance Explanation" max_length="4000" name="variance_explanation" type="string_full_utf8"/>
+    </element>
+</database>
